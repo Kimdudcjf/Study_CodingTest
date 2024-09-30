@@ -69,9 +69,9 @@ ex) 2557_HelloWorld_README.md<br>
 
 <h2>스터디 멤버</h2>
 
-|<img src="https://avatars.githubusercontent.com/u/156433565?v=4" width="150" height="150"/>|<img src="" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/106094690?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/183355547?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/106459398?v=4" width="150" height="150"/>|
+|<img src="https://avatars.githubusercontent.com/u/156433565?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/124113202?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/106094690?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/183355547?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/106459398?v=4" width="150" height="150"/>|
 |:-:|:-:|:-:|:-:|:-:|
-|[@ongdanul](https://github.com/ongdanul)|[]()|[@pejj212](https://github.com/pejj212)|[@rmlee95](https://github.com/rmlee95)|[@Sw3342_99](https://github.com/Kimdudcjf)|
+|[@ongdanul](https://github.com/ongdanul)|[@KeeyongHam](https://github.com/KeeyongHam)|[@pejj212](https://github.com/pejj212)|[@rmlee95](https://github.com/rmlee95)|[@Sw3342_99](https://github.com/Kimdudcjf)|
 
 <br>
 
