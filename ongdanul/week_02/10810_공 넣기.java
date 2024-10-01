@@ -79,14 +79,9 @@ public class Main {
             }
         }
 
-        for (int i : arr) {
-            System.out.print(i + " ");
-        }
-      *//* 아래와 같음
         for(int i = 0; i < arr.length; i++) {
             bw.write(arr[i] + " ");
         }
-       *//*
 
         br.close();
         bw.flush();

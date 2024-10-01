@@ -89,7 +89,7 @@ public class Main {
 
 <br>
 
-## 🌵 보충 자료 (다른 사람의 풀이) <br>
+## 🌵 보충 자료 (다른 사람의 풀이)
 
 Stream을 사용하여 입력받고 출력 <br>
 
@@ -139,15 +139,11 @@ public class Main {
               arr[j] = K;
           }
       }
-  
-      for (int i : arr) {
-        System.out.print(i + " ");
-      }
-      /* 아래와 같음
+      
       for(int i = 0; i < arr.length; i++) {
           bw.write(arr[i] + " ");
       }
-       */
+
       br.close();
       bw.flush();
       bw.close();
