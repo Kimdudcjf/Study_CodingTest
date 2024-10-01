@@ -59,4 +59,4 @@ public class Main {
 
 ## 🌵 추가
 
-Collections.max()를 사용해서 최댓값을 찾을 수 있을 것 같은데 인덱스 값을 찾으려면 역시 for문을 사용해야할 것 같음
+Collections.max()를 사용해서 최댓값을 찾을 수 있을 것 같은데 인덱스 값을 찾으려면 역시 for문을 사용해야할 것 같음.
