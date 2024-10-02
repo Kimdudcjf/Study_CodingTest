@@ -1,42 +1,64 @@
 ## 🌵 문제 정보
 Hello World <br>
-[🚗 1037](https://www.acmicpc.net/problem/1037)
+[🚗 1009](https://www.acmicpc.net/problem/1009)
 
 ## 🌵 문제 정의
-`input` <br>
-- 6
-  3 4 2 12 6 8
+재용이는 최신 컴퓨터 10대를 가지고 있다. 어느 날 재용이는 많은 데이터를 처리해야 될 일이 생겨서 각 컴퓨터에 1번부터 10번까지의 번호를 부여하고, 10대의 컴퓨터가 다음과 같은 방법으로 데이터들을 처리하기로 하였다.
 
-`output` <br>
-- 24
+1번 데이터는 1번 컴퓨터, 2번 데이터는 2번 컴퓨터, 3번 데이터는 3번 컴퓨터, ... ,
+
+10번 데이터는 10번 컴퓨터, 11번 데이터는 1번 컴퓨터, 12번 데이터는 2번 컴퓨터, ...
+
+총 데이터의 개수는 항상 ab개의 형태로 주어진다. 재용이는 문득 마지막 데이터가 처리될 컴퓨터의 번호가 궁금해졌다. 이를 수행해주는 프로그램을 작성하라.
+`input` 입력의 첫 줄에는 테스트 케이스의 개수 T가 주어진다. 그 다음 줄부터 각각의 테스트 케이스에 대해 정수 a와 b가 주어진다. (1 ≤ a < 100, 1 ≤ b < 1,000,000).<br>
+- 5
+  1 6
+  3 7
+  6 2
+  7 100
+  9 635
+`output` 각 테스트 케이스에 대해 마지막 데이터가 처리되는 컴퓨터의 번호를 출력한다.<br>
+- 1
+  7
+  6
+  1
+  9
 
 ## 🌵 알고리즘 설계
-기본적으로 약수들의 집합에서 1과 자기자신이 없어진것이 진짜 약수다
-N 값을 구하기위해서 약수들중 최소값과 최대값을 곱하면 N을 구할수있다.
-문자열 출력
+a제곱의 패턴을 찾아내 마지막 자리만 뽑아낸다. 단 나머지가 0일땐 10번째 컴퓨터
 ```java
 
 import java.util.Scanner;
 
-class day2 {
+class Main {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    int T = sc.nextInt(); 
 
-    System.out.println("a 값 입력");
-    int a = sc.nextInt();
+    for (int t = 0; t < T; t++) {
+      int a = sc.nextInt();
+      int b = sc.nextInt();
+      
+      a = a % 10;
+      
+      int lastDigit;
+      
+      if (a == 0) {
+        lastDigit = 10;
+      } else {
+        int[] pattern = new int[4];
+        pattern[0] = a;
+        for (int i = 1; i < 4; i++) {
+          pattern[i] = (pattern[i - 1] * a) % 10;
+        }
 
-    System.out.println("b 값 입력");
-    int b = sc.nextInt();
+        int index = (b - 1) % 4;
+        lastDigit = pattern[index];
+      }
 
-    int total = a * b;
-
-    int last = total % 10;
-
-    if (last == 0) {
-      last = 10;
+      System.out.println(lastDigit);
     }
-
-    System.out.println(last);
   }
 }
+
 ```
