@@ -111,7 +111,7 @@ public class Main {
 
 ```java
 import java.io.*;
-        import java.util.StringTokenizer;
+import java.util.StringTokenizer;
 
 public class Main {
   //readLine() 시 예외처리가 반드시 필요
