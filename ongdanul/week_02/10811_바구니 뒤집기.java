@@ -65,14 +65,14 @@ public class Main {
 
             int arr[] = new int[n];
             for(int i=0; i<n; i++) {
-            arr[i] = i + 1;
+                arr[i] = i + 1;
             }
 
             for(int i=0; i<m; i++) {
-            str = new StringTokenizer(br.readLine());
+              str = new StringTokenizer(br.readLine());
 
-            int I = Integer.parseInt(str.nextToken()) - 1;
-            int J = Integer.parseInt(str.nextToken()) - 1;
+              int I = Integer.parseInt(str.nextToken()) - 1;
+              int J = Integer.parseInt(str.nextToken()) - 1;
 
               while(I < J) {
                   temp = arr[I];
@@ -84,7 +84,7 @@ public class Main {
             }
 
             for(int i = 0; i <arr.length; i++) {
-            bw.write(arr[i] + " ");
+                bw.write(arr[i] + " ");
             }
 
             br.close();
