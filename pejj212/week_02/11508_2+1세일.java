@@ -12,7 +12,6 @@ public class Main {
 
         Arrays.sort(arr, Collections.reverseOrder()); //내림차순
 
-
         for(int i=0; i<arr.length; i++) {
             if(!(i % 3 == 2)) {
                 sum += arr[i];
@@ -20,6 +19,5 @@ public class Main {
         }
 
         System.out.println(sum);
-
     }
 }
