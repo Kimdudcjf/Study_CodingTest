@@ -1,6 +1,6 @@
 ## 🌵 문제 정보
 최소+최대 (브론즈3) <br>
-[🚗 1152](https://www.acmicpc.net/problem/10818)
+[🚗 10818](https://www.acmicpc.net/problem/10818)
 
 ## 🌵 문제 정의
 `input` <br>
