@@ -15,6 +15,5 @@ public class Main {
         Arrays.sort(arr);
 
         System.out.println(arr[0]+" "+arr[arr.length-1]);
-
     }
 }
