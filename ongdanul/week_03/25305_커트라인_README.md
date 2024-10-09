@@ -45,7 +45,7 @@ public class Main {
 
     Arrays.sort(arr);
     
-    System.out.print(arr[N-K] + " ");
+    System.out.print(arr[N-K]);
     
     sc.close();
   }
