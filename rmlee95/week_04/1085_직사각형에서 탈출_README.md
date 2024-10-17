@@ -30,7 +30,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int x, y, w, h;
-        int result = 0;
+        
         x = sc.nextInt();
         y = sc.nextInt();
         w = sc.nextInt();
